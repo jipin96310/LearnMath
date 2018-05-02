@@ -1,0 +1,21 @@
+<menu xmlns:tools="schemas.android.com/tools"
+    tools:context=".activities.MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/random_add_add"
+        android:icon="@drawable/ic_menu_add"
+
+        app:showAsAction="ifRoom"
+        android:title="Add New" />
+
+    <item
+        android:id="@+id/random_add_generate"
+        android:icon="@android:drawable/checkbox_on_background"
+
+        android:title="Add New"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

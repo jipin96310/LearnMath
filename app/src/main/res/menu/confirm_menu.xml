@@ -1,0 +1,16 @@
+<menu xmlns:tools="schemas.android.com/tools"
+    tools:context=".activities.MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <item
+        android:id="@+id/confirm_confirm"
+        android:icon="@android:drawable/checkbox_on_background"
+
+        android:title="Confirm"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

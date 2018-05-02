@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Who will take the test?"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/task_child_list"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:choiceMode="singleChoice"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What's the limit  time of this test?(min)"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/search_limit_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose problems:"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onAddproblems"
+        android:text="ADD PROBLEMS" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onConfirmTask"
+        android:text="CONFIRM" />
+
+
+</LinearLayout>

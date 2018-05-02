@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zhaohengsun.learnmath.ParentActivity">
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="160dp"
+         android:orientation="horizontal">
+
+
+         <android.support.v7.widget.CardView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="8dp"
+             android:layout_marginLeft="8dp"
+             android:layout_marginRight="8dp"
+             android:layout_marginTop="8dp"
+             android:layout_weight="1"
+
+
+             android:onClick="onTask"
+             app:cardCornerRadius="4dp"
+             app:cardPreventCornerOverlap="false"
+             app:cardUseCompatPadding="true"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent">
+
+
+             <android.support.v7.widget.CardView
+                 android:layout_width="match_parent"
+                 android:layout_height="100dp"
+                 app:cardBackgroundColor="#218868"
+                 app:cardCornerRadius="4dp"
+                 app:cardPreventCornerOverlap="false"
+                 app:cardUseCompatPadding="true"
+
+                 >
+
+                 <TextView
+                     android:id="@+id/textView"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Test\nManage"
+                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                     android:textColor="@color/cardview_light_background"
+                     android:textSize="24sp"
+                     android:textStyle="bold" />
+             </android.support.v7.widget.CardView>
+
+
+         </android.support.v7.widget.CardView>
+
+         <android.support.v7.widget.CardView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="8dp"
+             android:layout_marginLeft="8dp"
+             android:layout_marginRight="8dp"
+             android:layout_marginTop="8dp"
+             android:layout_weight="1"
+
+
+             android:onClick="onProblem"
+             app:cardCornerRadius="4dp"
+             app:cardPreventCornerOverlap="false"
+             app:cardUseCompatPadding="true"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent">
+
+
+             <android.support.v7.widget.CardView
+                 android:layout_width="match_parent"
+                 android:layout_height="100dp"
+                 app:cardBackgroundColor="#8B4789"
+                 app:cardCornerRadius="4dp"
+                 app:cardPreventCornerOverlap="false"
+                 app:cardUseCompatPadding="true"
+
+                 >
+
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Problem\nManage"
+                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                     android:textColor="@color/cardview_light_background"
+                     android:textSize="24sp"
+                     android:textStyle="bold" />
+             </android.support.v7.widget.CardView>
+
+         </android.support.v7.widget.CardView>
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+
+
+            android:onClick="onChildren"
+            app:cardCornerRadius="4dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardCornerRadius="4dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="#FFA500"
+
+            >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student\nManage"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+
+
+            android:onClick="onReward"
+            app:cardCornerRadius="4dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="#87CEFA"
+                app:cardCornerRadius="4dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true"
+
+                >
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reward\nManage"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</LinearLayout>
+
